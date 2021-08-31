@@ -11,14 +11,20 @@ namespace fil_rouge.Models
     {
         [Key]
         public int Id { get; set; }
+
         public DateTime Datedebut { get; set; }
+
         public DateTime Datefin { get; set; }
-        public float Price { get; set; }
-        public bool IsValid { get; set; }
+
+        public string IsValid { get; set; }
+
         [ForeignKey("Idhotel,IdClient")]
         public int Idhotel { get; set; }
+
         public Hotel hotel { get; set; }
-        public int IdClient { get; set; }
+
+        public string IdClient { get; set; }
+
         public Client client { get; set; }
     }
 }

@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using fil_rouge.Data;
 
 namespace fil_rouge.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210812171627_ii")]
+    partial class ii
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -210,11 +212,15 @@ namespace fil_rouge.Migrations
 
                     b.Property<DateTime>("Datefin");
 
-                    b.Property<string>("IdClient");
+                    b.Property<int>("IdClient");
 
                     b.Property<int>("Idhotel");
 
-                    b.Property<string>("IsValid");
+                    b.Property<bool>("IsValid");
+
+                    b.Property<int>("Niveau");
+
+                    b.Property<float>("Price");
 
                     b.Property<string>("clientId");
 

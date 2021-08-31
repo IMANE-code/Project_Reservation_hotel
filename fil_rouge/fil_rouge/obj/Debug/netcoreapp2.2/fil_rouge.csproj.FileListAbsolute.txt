@@ -143,3 +143,5 @@ C:\Users\Youcode\Desktop\Project_Reservation_hotel\fil_rouge\fil_rouge\obj\Debug
 C:\Users\Youcode\Desktop\Project_Reservation_hotel\fil_rouge\fil_rouge\obj\Debug\netcoreapp2.2\Razor\Views\admin\EditRole.cshtml.g.cs
 C:\Users\Youcode\Desktop\Project_Reservation_hotel\fil_rouge\fil_rouge\obj\Debug\netcoreapp2.2\Razor\Views\admin\EditUserInRole.cshtml.g.cs
 C:\Users\Youcode\Desktop\Project_Reservation_hotel\fil_rouge\fil_rouge\obj\Debug\netcoreapp2.2\Razor\Views\admin\Index.cshtml.g.cs
+C:\Users\Youcode\Desktop\Project_Reservation_hotel\fil_rouge\fil_rouge\obj\Debug\netcoreapp2.2\Razor\Views\Reservation\Index.cshtml.g.cs
+C:\Users\Youcode\Desktop\Project_Reservation_hotel\fil_rouge\fil_rouge\obj\Debug\netcoreapp2.2\Razor\Views\Reservation\Create.cshtml.g.cs
