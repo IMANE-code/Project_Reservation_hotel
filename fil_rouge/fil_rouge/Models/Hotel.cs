@@ -11,6 +11,7 @@ namespace fil_rouge.Models
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
+        public string city { get; set; }
         public float Price { get; set; }
         public string Niveau { get; set; }
         public string Image { get; set; }
