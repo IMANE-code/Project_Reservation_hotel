@@ -188,6 +188,8 @@ namespace fil_rouge.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("City");
+
                     b.Property<string>("Image");
 
                     b.Property<string>("Name");

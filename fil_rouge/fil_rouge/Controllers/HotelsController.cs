@@ -54,7 +54,7 @@ namespace fil_rouge.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Price,Niveau,Image")] Hotel hotel)
+        public async Task<IActionResult> Create([Bind("Id,Name,City,Price,Niveau,Image")] Hotel hotel)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace fil_rouge.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Price,Niveau,Image")] Hotel hotel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,City,Price,Niveau,Image")] Hotel hotel)
         {
             if (id != hotel.Id)
             {
